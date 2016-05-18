@@ -1,0 +1,27 @@
+.success{
+	padding: 20px;
+}
+.success-content{
+	text-align: center;
+	margin: 10px;
+}
+.success-content p{
+	color: #00BC9B;
+	line-height: 2;
+}
+.success-content a{
+	display: block;
+	background: #00BC9B none repeat scroll 0% 0%;
+	color: #FFF;
+	width: 10%;
+	height: 27px;
+	line-height: 27px;
+	padding: 5px;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 7px;
+	margin-top: 8px;
+}
+.success-content a:hover{
+	background: #21BB9C;
+}

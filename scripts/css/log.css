@@ -1,0 +1,138 @@
+.log{
+	width: 74%;
+}
+.log-header{
+    list-style: outside none none;
+}
+.log-header li{
+	float: left;
+	background: #F3F4F5 none repeat scroll 0% 0%;
+    border-top: 2px solid #F3F4F5;
+    width: 50%;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
+.log-header a{
+	color: #666;
+    font-size: 24px;
+    display: block;
+    height: 80px;
+    line-height: 80px;
+}
+.log-header .log-login-a{
+	background: url("/live-test/scripts/images/reg-login.png") no-repeat scroll 37% -20%;
+}
+.log-header .log-register-a{
+	background: url("/live-test/scripts/images/reg-login.png") no-repeat scroll 37% 26%;
+}
+.log-header .log-login-a-active{
+	background: url("/live-test/scripts/images/reg-login.png") no-repeat scroll 37% 118%;
+}
+.log-header .log-register-a-active{
+	background: url("/live-test/scripts/images/reg-login.png") no-repeat scroll 37% 73%;
+}
+.log-header-active{
+	background: #FFF !important;
+	color: #25BB9B;
+	font-size: 24px;
+	border-top: 2px solid #25BB9B !important;
+}
+.log-content{
+    border-top: 1px solid #EDEDED;
+    padding: 20px 22% 80px;
+    color: #333;
+}
+.log-user-type{
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	color: #333;
+	margin-bottom: 12px;
+	margin-left: -70px;
+}
+.log-user-type input{
+
+}
+.log-form{
+    position: relative;
+}
+.company{
+	display: none;
+}
+.log-item{
+    margin-bottom: 20px;
+    height: 42px;
+    line-height: 42px;
+    color: #333;
+}
+.log-item label{
+    padding: 0px 15px;
+    font-size: 14px;
+    float: left;
+    width: 20%;
+    line-height: 42px;
+    height: 42px;
+    text-align: right;
+    margin-bottom: 0px;
+}
+.log-input{
+    width: 72%;
+    line-height: 42px;
+    height: 42px;
+    position: relative;
+    float: left;
+}
+.log-input input{
+    border: 1px solid #D4D4D4;
+    color: #34495E;
+    font-size: 14px;
+    padding: 8px 5px;
+    width: 90%;
+    height: 22px;
+    border-radius: 3px;
+    outline: 0px none;
+}
+.log-input #code_login, .log-input #code_register{
+	width: 55%;
+	float: left;
+}
+.log-input span{
+	color: #FF5400;
+	position: absolute;
+	left: 0px;
+	bottom: -16px;
+	display: none;
+	font-size: 14px;
+	line-height: 14px;
+	display: none;
+}
+.log-input img{
+    float: left;
+    width: 34%;
+	height: 42px;
+	line-height: 42px;
+	margin-left: 1%;
+	border-radius: 5px;
+}
+.log-input img:after{
+	content: '\3000';
+	display: block;
+
+}
+.log-input .submit{
+    background: #00BC9B none repeat scroll 0% 0%;
+    text-align: center;
+	padding: 10px 0px;
+	color: #FFF;
+	font-size: 14px;
+	border-radius: 3px;
+	border: 0px none;
+	cursor: pointer;
+	height: 42px;
+	line-height: normal;
+	outline: 0px none;
+	white-space: nowrap;
+	margin-left: 36%;
+	width: 94%;
+}

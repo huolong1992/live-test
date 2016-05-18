@@ -1,0 +1,26 @@
+.result{
+	width: 70%;
+	text-align: center;
+	float: right;
+}
+.result-item{
+	margin-bottom: 20px;
+    color: #333;
+}
+.result-item label{
+	padding: 0px 15px;
+    font-size: 14px;
+    float: left;
+    width: 20%;
+    text-align: right;
+    margin-bottom: 0px;
+}
+.result-right{
+	float: left;
+	font-size: 14px;
+	color: #999;
+}
+.result-right p{
+	margin-bottom: 10px;
+    text-align: left;
+}

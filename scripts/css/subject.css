@@ -1,0 +1,228 @@
+.subject{
+    padding: 20px;
+}
+.subject-item{
+    list-style: outside none none;
+    text-align: center;
+}
+.subject-item li{
+    margin: 0px 2% 30px 2%;
+	width: 29%;
+    float: left;
+    height: 200px;
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+}
+.subject-company img{
+    margin-top: 40px;
+}
+.subject-company a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #00BC9B;
+}
+.subject-company:hover{
+	border: 1px solid #B9B9B9;
+}
+.subject-title:hover{
+	color: #00BC9B;
+	border: 1px solid #B9B9B9;
+}
+.subject-title h1{
+	font-size: 20px;
+	font-weight: 100;
+	color: #666;
+	margin: 55px 0 15px 0;
+}
+.subject-title a{
+	height: 30px;
+	display: block;
+	background: #00BC9B;
+	width: 35%;
+	line-height: 30px;
+	margin: 0 auto;
+	color: #FFF;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.subject-title a:hover{
+    border: 1px solid #B9B9B9;
+}
+.subject-done{
+	background: #FFF;
+	opacity: 0.4;
+	z-index: 100;
+}
+.subject-done:hover{
+	cursor: not-allowed;
+	border: 1px solid #D6D6D6;
+}
+.pagination{
+    position: relative;
+	text-align: center;
+	white-space: nowrap;
+	margin: 20px 0px 0px;
+	font-size: 12px;
+	font-weight: 100;
+	letter-spacing: -4px;
+	display: none;
+}
+.pagination a{
+	display: block;
+	height: 30px;
+	border: 1px solid #00BC9B;
+	color: #00BC9B;
+	text-align: center;
+	line-height: 30px;
+}
+.pagination ul{
+    list-style: outside none none;
+}
+.pagination ul li{
+    letter-spacing: 0px;
+	margin-right: 5px;
+	vertical-align: top;
+	display: inline-block;
+	width: 4%;
+}
+.pagination-first, .pagination-prev, .pagination-next, .pagination-last{
+	width: 5% !important;
+}
+.pagination-first a, .pagination-prev a, .pagination-next a, .pagination-last a{
+	color: #999;
+	border-color: #E1E1E1;
+	background: #FFF none repeat scroll 0% 0%;
+}
+.pagination-prev{}
+.pagination-next{}
+.pagination-last{}
+.pagination-active a, .pagination ul li a:hover{
+	background: #00BC9B none repeat scroll 0% 0%;
+    color: #FFF;
+}
+.detail{
+	padding: 20px;
+}
+.detail>h1{
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 700;
+	color: #333;
+	white-space: nowrap;
+}
+.detail>h1:before{
+	background: #FF6547 none repeat scroll 0% 0%;
+	content: "\3000";
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	margin-right: 5px;
+	margin-bottom: 2px;
+	vertical-align: middle;
+}
+.detail-body{
+	padding: 20px 0px;
+}
+.detail-view{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.detail-img{
+	width: 20%;
+	margin-right: 30px;
+	background: transparent url("/live-test/scripts/images/target.png") no-repeat scroll 0% 0%;
+	height: 170px;
+	float: left;
+}
+.detail-options{
+	font-size: 14px;
+	padding-top: 20px;
+	color: #666;
+	float: left;
+	width: 76%;
+}
+.detail-options p{
+	margin-bottom: 5px;
+	line-height: 22px;
+}
+.detail-tips{
+	background: #F0F0F0;
+	color: #666 !important;
+	padding: 20px;
+	width: 80%;
+	max-width: 80%;
+	border-radius: 0px;
+	border: medium none;
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+.detail-tips p{
+	line-height: 2;
+}
+.detail-submit{}
+.detail-submit input{
+	cursor: pointer;
+	width: 180px;
+	margin: 0px auto;
+	display: block;
+	background: #00BC9B none repeat scroll 0% 0%;
+}
+.subinfo{
+	padding: 20px;
+	color: #333;
+	font-size: 14px;
+}
+.subinfo-time{
+	background: #3D444C none repeat scroll 0% 0%;
+	height: 72px;
+	width: 20%;
+	margin: -20px auto 0;
+	color: #FFF;
+	line-height: 72px;
+	text-align: center;
+	font-size: 20px;
+}
+.subinfo-content{
+	margin: 20px 0px;
+}
+.subinfo-question{
+	line-height: 1.6;
+	margin-bottom: 10px;
+}
+.subinfo-options{
+	margin-bottom: 20px;
+	border: 1px solid #D4D4D4;
+	border-radius: 2px;
+	padding: 12px 20px 13px;
+	background: #FFF none repeat scroll 0% 0%;
+	word-break: break-all;
+}
+.subinfo-options-selected, .subinfo-options:hover{
+	background: #F3F3F3 none repeat scroll 0% 0%;
+	border-color: #909090;
+}
+.subinfo-options-selected{
+	color: #1ABC9C;
+	border-color: #909090;
+	background: #FFF;
+}
+.subinfo-options input{}
+.subinfo-options span{
+	display: inline-block;
+	vertical-align: top;
+	max-width: 850px;
+}
+.subinfo-submit{
+}
+.subinfo-submit input{
+	margin-right: 10px;
+	cursor: pointer;
+}
+.subinfo-next{
+	background: #00BC9B;
+}
+.subinfo-post{
+	background: #FF6547 none repeat scroll 0% 0%;
+}
