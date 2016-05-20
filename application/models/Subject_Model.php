@@ -45,7 +45,7 @@ class Subject_Model  extends MY_Model {
         $ret['subject'] = array();
         foreach ($subject as $v) {
             if(time() < $v['end_time']){
-                $v['href'] = 'http://localhost/live-test/subjectview/detail/' . $v['subject_id'];
+                $v['href'] = '/live-test/subjectview/detail/' . $v['subject_id'];
                 unset($v['subject_id']);
                 unset($v['end_time']);
                 $ret['subject'][] = $v;
@@ -237,7 +237,7 @@ class Subject_Model  extends MY_Model {
         $sql = 'select subject_id, title, end_time from subject where user_id=' . $data['user_id'];
         $subject = $this->db->query($sql);
         if($subject->num_rows() <= 0){
-            $ret['error_info'] = '还没有发布试题哦, 赶快去发布吧, <a href="http://localhost/live-test/subjectview/pub">点击发布试题</a>';
+            $ret['error_info'] = '还没有发布试题哦, 赶快去发布吧, <a href="/live-test/subjectview/pub">点击发布试题</a>';
             return false;
         }
 
@@ -247,11 +247,11 @@ class Subject_Model  extends MY_Model {
             if(time() > $v['end_time']){
                 //已结束
                 $v['tag'] = 2;
-                $v['href'] = 'http://localhost/live-test/subjectview/result/' . $v['subject_id'];
+                $v['href'] = '/live-test/subjectview/result/' . $v['subject_id'];
             }else{
                 //未结束
                 $v['tag'] = 1;
-                $v['href'] = 'http://localhost/live-test/subjectview/modify/' . $v['subject_id'];
+                $v['href'] = '/live-test/subjectview/modify/' . $v['subject_id'];
             }
             unset($v['end_time']);
             unset($v['subject_id']);

@@ -5,7 +5,7 @@
                 echo '<li class="subject-company">', $error_info, '</li>';
             }else{
                 foreach ($company as $v) {
-                    echo '<li class="subject-company"><img src="/live-test/scripts/images/company.jpeg"><a href="http://localhost/live-test/subjectview/subject/', $v['user_id'], '">', $v['company'], '</a></li>';
+                    echo '<li class="subject-company"><img src="/live-test/scripts/images/company.jpeg"><a href="/live-test/subjectview/subject/', $v['user_id'], '">', $v['company'], '</a></li>';
                 }
             }
         ?>

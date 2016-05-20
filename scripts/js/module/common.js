@@ -8,7 +8,7 @@ window.LT = {
         }
         return false;
     },
-    host: 'http://localhost/live-test/'
+    host: '/live-test/'
 };
 //鼠标经过用户中心
 $('.user-center').mouseover(function(){

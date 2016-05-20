@@ -19,9 +19,9 @@ class MY_Controller extends  CI_Controller {
     //是否公司
     protected $is_com;
     //登录页
-    protected $login_page = 'http://localhost/live-test/userview/log';
+    protected $login_page = '/live-test/userview/log';
     //首页
-    protected $main_page = 'http://localhost/live-test/subjectview/company';
+    protected $main_page = '/live-test/subjectview/company';
 
     public  function __construct()
     {
